@@ -1,0 +1,66 @@
+.wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px;
+  font-family: var(--font-mono);
+}
+
+.sectionTitle {
+  font-size: 9px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(56, 139, 253, 0.04);
+}
+
+.label {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.value {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+.divider {
+  height: 1px;
+  background: var(--border);
+  margin: 14px 0 12px;
+}
+
+.schemaItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.schemaLabel {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.schemaVal {
+  font-size: 10px;
+  color: var(--text-secondary);
+}
+
+/* Accent colors */
+.green { color: var(--green) !important; }
+.red { color: var(--red) !important; }
+.blue { color: var(--accent-blue) !important; }
+.amber { color: var(--accent-amber) !important; }
+.teal { color: var(--accent-teal) !important; }
+.purple { color: var(--accent-purple) !important; }
+.neutral { color: var(--text-primary) !important; }

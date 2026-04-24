@@ -1,0 +1,119 @@
+.wrapper {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 16px 20px;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.count {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--accent-amber);
+  background: rgba(240, 167, 50, 0.1);
+  border: 1px solid rgba(240, 167, 50, 0.2);
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.empty {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 24px 0;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+}
+
+.table th {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  text-align: left;
+  padding: 6px 8px;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.row {
+  border-bottom: 1px solid rgba(56, 139, 253, 0.05);
+  transition: background 0.1s;
+}
+
+.row:hover {
+  background: var(--bg-elevated);
+}
+
+.row td {
+  padding: 7px 8px;
+  color: var(--text-secondary);
+  vertical-align: middle;
+}
+
+.mono {
+  font-family: var(--font-mono) !important;
+  font-size: 11px !important;
+}
+
+.zScore {
+  color: var(--accent-purple) !important;
+}
+
+.up { color: var(--green) !important; }
+.down { color: var(--red) !important; }
+
+.badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.low {
+  background: rgba(57, 208, 160, 0.1);
+  color: var(--accent-teal);
+  border: 1px solid rgba(57, 208, 160, 0.2);
+}
+
+.medium {
+  background: rgba(240, 167, 50, 0.1);
+  color: var(--accent-amber);
+  border: 1px solid rgba(240, 167, 50, 0.2);
+}
+
+.high {
+  background: rgba(248, 81, 73, 0.1);
+  color: var(--red);
+  border: 1px solid rgba(248, 81, 73, 0.25);
+}

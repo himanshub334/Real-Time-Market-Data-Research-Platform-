@@ -1,0 +1,44 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: var(--font-mono);
+}
+
+.value {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.green { color: var(--green) !important; }
+.red { color: var(--red) !important; }
+.blue { color: var(--accent-blue) !important; }
+.amber { color: var(--accent-amber) !important; }
+.teal { color: var(--accent-teal) !important; }
+.neutral { color: var(--text-primary); }
+
+.loading {
+  font-family: var(--font-mono);
+  color: var(--text-muted);
+  font-size: 12px;
+  padding: 16px;
+}
